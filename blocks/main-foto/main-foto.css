@@ -1,0 +1,7 @@
+.main-foto {
+  display: block;
+  height: 510px;
+  max-height: 100%;
+  position: relative;
+  overflow: hidden;
+}

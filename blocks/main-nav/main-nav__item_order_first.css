@@ -1,0 +1,10 @@
+.main-nav__item_order_first {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+@media (max-width: 767px) {
+  .main-nav__item_order_first {
+    order: 2;
+  }
+}

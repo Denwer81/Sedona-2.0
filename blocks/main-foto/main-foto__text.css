@@ -1,0 +1,23 @@
+.main-foto__text {
+  position: absolute;
+  width: 282px;
+  height: 214x;
+  z-index: 5;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+ @media (min-width: 768px) {
+  .main-foto__text {
+    width: 360px;
+    height: 270px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-foto__text {
+    width: 460px;
+    height: 349px;
+  }
+} 
