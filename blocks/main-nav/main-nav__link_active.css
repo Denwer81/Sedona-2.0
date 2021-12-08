@@ -1,3 +1,6 @@
+.main-nav__link_active:hover,
+.main-nav__link_active:focus,
 .main-nav__link_active:active {
+  background-color: white;
   opacity: 1;
 }

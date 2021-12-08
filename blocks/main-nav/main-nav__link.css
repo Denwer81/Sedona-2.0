@@ -1,4 +1,9 @@
 .main-nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 55px;
   font-size: 18px;
   color: white;
   text-decoration: none;
@@ -9,11 +14,17 @@
 
 .main-nav__link:hover,
 .main-nav__link:focus {
-  color: #81B3D2;
+  background-color: #669EC0;
 }
 
 .main-nav__link:active {
-  opacity: .3;
+  background-color: #5496BD;
+  color: #265e7e;
+}
+
+.main-nav__link:disabled {
+  background-color: #E5E5E5;
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -22,5 +33,15 @@
     line-height: 26px;
     color: black;
   }
-}
 
+  .main-nav__link:hover,
+  .main-nav__link:focus {
+    background-color: white;
+    color: #81B3D2;
+  }
+
+  .main-nav__link:active {
+    color: black;
+    opacity: 0.3;
+  }
+}

@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/reset-style/reset-styles.css);
-@import url(../style.css);
+/* @import url(../style.css); */
 @import url(../blocks/page/page.css);
 @import url(../blocks/visually-hidden/visually-hidden.css);
 @import url(../blocks/container/container.css);

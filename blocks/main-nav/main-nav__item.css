@@ -1,9 +1,5 @@
 .main-nav__item {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 55px;
   width: 100%;
   box-sizing: border-box;
   box-shadow: 

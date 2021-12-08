@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 55px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 40px;
+  transition: .13s ease-in;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #669EC0;
+}
+
+.button:active {
+  background-color: #5496BD;
+  color: #265e7e;
+}
+
+.button:disabled {
+  background-color: #E5E5E5;
+  color: white;
+}

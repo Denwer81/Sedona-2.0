@@ -1,3 +1,15 @@
 .content__main-foto {
-  margin-bottom: 60px;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+  .content__main-foto {
+    margin-bottom: 43px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content__main-foto {
+    margin-bottom: 55px;
+  }
 }

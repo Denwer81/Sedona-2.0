@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
+
 <body>
   <div class="page">
 
@@ -20,12 +22,11 @@
             <a class="main-nav__link" href="">Фото и видео</a>
           </li>
           <li class="main-nav__item main-nav__item_order_first">
-            <a class="main-nav__link main-nav__link_active" href="" tabindex="-1">
-              <picture class="main-nav__logo">
-                <source class="visually-hidden" media="(max-width:  767px)" srcset="./img/logo-sedona-mobile.svg">
-                <source class="visually-hidden" media="(max-width:  1199px)" srcset="./img/logo-sedona-tablet.svg">
-                <source class="visually-hidden" media="(min-width:  1200px)" srcset="./img/logo-sedona-desktop.svg">
-                <img src="./img/logo-sedona-mobile.svg" alt="logo Sedona">
+            <a class="main-nav__link main-nav__link_active" tabindex="-1">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="./img/logo-sedona-desktop.svg">
+                <source media="(min-width: 768px)" srcset="./img/logo-sedona-tablet.svg">
+                <img class="main-nav__logo" src="./img/logo-sedona-mobile.svg" alt="logo Sedona">
               </picture>
             </a>
           </li>
@@ -42,92 +43,87 @@
     <main class="content container">
       <h1 class="visually-hidden">Сайт города Седона</h1>
 
-        <section class="main-foto content__main-foto">
-          <picture>
-            <source class="visually-hidden" media="max-width: 767px" srcset="./img/bg-back-desktop@1x.jpg">
-            <source class="visually-hidden" media="min-width: 1200px" srcset="./img/bg-back-desktop@2x.jpg">
-            <img class="main-foto__sedona" src="./img/bg-back-desktop@1x.jpg" alt="виды седоны">
-          </picture>
-          <img class="main-foto__text" src="./img/text-sedona-index.svg" alt="добро пожаловать">
-          <svg class="main-foto__frame frame" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="57"
-            viewBox="0 0 1200 57">
-            <image width="1200" height="57"
-              xlink:href="data:img/png;base64,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"
-              fill="#fff"/>
-          </svg>
-        </section>
+      <section class="main-foto content__main-foto">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="./img/bg-back-desktop@2x.jpg">
+          <img class="main-foto__sedona" src="./img/bg-back-desktop@1x.jpg" alt="виды седоны">
+        </picture>
+        <img class="main-foto__text" src="./img/text-sedona-index.svg" alt="добро пожаловать">
+        <svg class="main-foto__frame frame" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="57" viewBox="0 0 1200 57">
+          <image width="1200" height="57"
+            xlink:href="data:img/png;base64,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"
+            fill="#fff" />
+        </svg>
+      </section>
 
-        <section class="sedona-advant">
-          <h2>СЕДОНА — небольшой городок в АРИЗОНЕ, <br>заслуживающий большего!</h2>
-          <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-          <ul class="advat-items">
-            <li class="advat__item big-advat__item-1">
-              <div class="item__card">
-                <h3>настоящий<br>городок</h3>
-                <p>— №1 —</p>
-                <p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ
-                  <p>
-              </div>
-              <img class="item__foto" src="img/foto_1.jpg" alt="виды седоны">
-            </li>
-            <li class="advat__item big-advat__item">
-              <div class="item__card">
-                <h3>там есть <br> мост дьявола</h3>
-                <p>— №2 —</p>
-                <p>Да, по нему можно пройти! Если конечно вы осмелитесь
-                  <p>
-              </div>
-              <img class="item__foto" src="img/foto_2.jpg" alt="виды седоны">
-            </li>
-            <li class="advat__item card-grey">
-              <div class="item__card">
-                <h3>небольшая <br> площадь</h3>
-                <p>— №3 —</p>
-                <p>ВСЕ достопримечательности находятся очень близко!
-                  <p>
-              </div>
-            </li>
-            <li class="advat__item card-grey">
-              <div class="item__card">
-                <h3>красивая <br> дорога</h3>
-                <p>— №4 —</p>
-                <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем
-                  НЕ СКУЧНО!
-                  <p>
-              </div>
-            </li>
-            <li class="advat__item card-grey">
-              <div class="item__card">
-                <h3>мало <br> туристов</h3>
-                <p>— №5 —</p>
-                <p>Большинство едет в гранд каньон и толпится там.
-                  <p>
-              </div>
-            </li>
-          </ul>
-          <div class="advat-item__more container">
-            <div class="item__card">
-              <p></p>
-              <h3>жилье</h3>
-              <p>Рекомендуем пожить в настоящем мотеле, все как в кино!
-                <p>
+      <section class="advantages">
+        <h2 class="sadvantages__title title">СЕДОНА — небольшой городок в АРИЗОНЕ, <br>заслуживающий большего!</h2>
+        <p class="advantages__subtitle subtitle">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        <ul class="advantages__items">
+          <li class="advantages__item advantages__item_size_xl">
+            <div class="advantages__card card">
+              <h3 class="card__title">настоящий<br>городок</h3>
+              <p class="card__text">— №1 —</p>
+              <p class="card__text">СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ<p>
             </div>
-            <div class="item__card item__card-2">
-              <p></p>
-              <h3>еда</h3>
-              <p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!
-                <p>
+            <img class="card__foto" src="img/foto_1.jpg" alt="виды седоны">
+          </li>
+          <li class="advantages__item advantages__item_size_xl">
+            <div class="advantages__card card">
+              <h3 class="card__title">там есть <br> мост дьявола</h3>
+              <p class="card__text">— №2 —</p>
+              <p class="card__text">Да, по нему можно пройти! Если конечно вы осмелитесь<p>
             </div>
-            <div class="item__card item__card-3">
-              <p></p>
-              <h3>сувениры</h3>
-              <p>Не только китайского, но и местного производства!
-                <p>
+            <img class="card__foto" src="img/foto_2.jpg" alt="виды седоны">
+          </li>
+          <li class="advantages__item advantages__item_size_s">
+            <div class="advantages__card card">
+              <h3 class="card__title">небольшая <br> площадь</h3>
+              <p class="card__text">— №3 —</p>
+              <p class="card__text">ВСЕ достопримечательности находятся очень близко!<p>
             </div>
-          </div>
-        </section>
+          </li>
+          <li class="advantages__item advantages__item_size_s">
+            <div class="advantages__card card">
+              <h3 class="card__title">красивая <br> дорога</h3>
+              <p class="card__text">— №4 —</p>
+              <p class="card__text">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!<p>
+            </div>
+          </li>
+          <li class="advantages__item advantages__item_size_s">
+            <div class="advantages__card card">
+              <h3 class="card__title">мало <br> туристов</h3>
+              <p class="card__text">— №5 —</p>
+              <p class="card__text">Большинство едет в гранд каньон и толпится там.<p>
+            </div>
+          </li>
+          <li class="advantages__item advantages__item_size_s">
+            <div class="advantages__card card">
+              <img class="card__icon" src="" alt="">
+              <h3 class="card__title">жилье</h3>
+              <p class="card__text">Рекомендуем пожить в настоящем мотеле, все как в кино!<p>
+            </div>
+          </li>
+          <li class="advantages__item advantages__item_size_s">
+            <div class="advantages__card card">
+              <img class="card__icon" src="" alt="">
+              <h3 class="card__title">еда</h3>
+              <p class="card__text">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!<p>
+            </div>
+          </li>
+          <li class="advantages__item advantages__item_size_s">
+            <div class="advantages__card card">
+              <img class="card__icon" src="" alt="">
+              <h3 class="card__title">сувениры</h3>
+              <p class="card__text">Не только китайского, но и местного производства!<p>
+            </div>
+          </li>
+        </ul>
 
-        <!-- <section class="search-addres">
+      </section>
+
+      <!-- <section class="search-addres">
           <h2>заинтересовались?</h2>
           <p>Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в седоне
           </p>
@@ -200,6 +196,7 @@
     </footer> -->
 
   </div>
-  
+
 </body>
+
 </html>
