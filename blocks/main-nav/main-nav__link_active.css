@@ -1,6 +1,30 @@
+.main-nav__link_active,
+.main-nav__link_active {
+  color: #2a689b;
+}
+
 .main-nav__link_active:hover,
-.main-nav__link_active:focus,
-.main-nav__link_active:active {
-  background-color: white;
-  opacity: 1;
+.main-nav__link_active:focus {
+  color: #bfdcec;
+}
+
+@media (min-width: 768px) {
+  .main-nav__link_active {
+    position: relative;
+    color: #766357;
+  }
+  
+  .main-nav__link_active::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #81B3D2;
+  }
+  
+  .main-nav__link_active:hover {
+    color: #493b33;
+  }
 }

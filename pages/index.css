@@ -1,19 +1,19 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/reset-style/reset-styles.css);
-/* @import url(../style.css); */
 @import url(../blocks/page/page.css);
 @import url(../blocks/visually-hidden/visually-hidden.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/main-nav/main-nav__item.css);
 @import url(../blocks/main-nav/main-nav__item_order_first.css);
 @import url(../blocks/main-nav/main-nav__link.css);
-@import url(../blocks/main-nav/main-nav__link_active.css);
 @import url(../blocks/main-nav/main-nav__list.css);
 @import url(../blocks/main-nav/main-nav__logo.css);
+@import url(../blocks/main-nav/main-nav__link-logo.css);
+@import url(../blocks/main-nav/main-nav__link_active.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/content__main-foto.css);
 @import url(../blocks/main-foto/main-foto.css);
-@import url(../blocks/main-foto/main-foto__frame.css);
 @import url(../blocks/main-foto/main-foto__sedona.css);
 @import url(../blocks/main-foto/main-foto__text.css);
-@import url(../blocks/frame/frame.css);
+@import url(../blocks/advantages/advantages__frame.css);
+@import url(../style.css);

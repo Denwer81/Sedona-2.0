@@ -9,6 +9,7 @@
 
 @media (min-width: 768px) {
   .main-nav__item {
+    width: 20%;
     box-shadow: none;
   }
 }

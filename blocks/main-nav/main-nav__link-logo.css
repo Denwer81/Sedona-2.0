@@ -1,0 +1,6 @@
+.main-nav__link-logo:hover,
+.main-nav__link-logo:focus,
+.main-nav__link-logo:active {
+  background-color: white;
+  opacity: 1;
+}

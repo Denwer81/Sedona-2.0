@@ -1,5 +1,4 @@
 .main-foto {
-  display: block;
   height: 510px;
   max-height: 100%;
   position: relative;
@@ -10,5 +9,4 @@
   .main-foto {
     height: 389px;
   }
-  
 }

@@ -1,0 +1,24 @@
+/* * {
+  border: 1px solid red;
+} */
+
+.more-advant__item {
+  display: grid;
+  justify-content: center;
+  list-style: none;
+}
+
+.more-advant__card {
+  display: grid;
+  grid-template-columns: 50px 5fr;
+}
+
+.card__wrapper {
+  padding-top: 5px;
+  max-width: 500px;
+}
+
+.card__icon {
+  width: 45px;
+  height: 45px;
+}
