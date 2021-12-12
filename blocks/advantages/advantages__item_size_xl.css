@@ -1,0 +1,11 @@
+.advantages__item_size_xl {
+  background-color: #81B3D2;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .advantages__item_size_xl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}

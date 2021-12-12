@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="./pages/media.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <header class="header container">
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="index.html">Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link main-nav__link_active" href="">Фото и видео</a>
+          </li>
+          <li class="main-nav__item main-nav__item_order_first">
+            <a class="main-nav__link main-nav__link-logo" tabindex="-1">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="./img/logo-sedona-desktop.svg">
+                <source media="(min-width: 768px)" srcset="./img/logo-sedona-tablet.svg">
+                <img class="main-nav__logo" src="./img/logo-sedona-mobile.svg" alt="logo Sedona">
+              </picture>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="">Форма отзыва</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="">HTML Acadamy</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content container">
+      
+      <section class="main-foto main-foto_page_media content__main-foto">
+        <h1 class="visually-hidden">Сайт города Седона</h1>
+        <div class="main-foto__sedona main-foto__sedona_page_media"></div>
+        <img class="main-foto__text main-foto__text_page_media" src="./img/text-sedona.svg" alt="добро пожаловать">
+      </section>
+
+      <section class="media">
+        <h2 class="media__title title wrapper">Фото и видео</h2>
+        <p class="media__subtitle subtitle wrapper">Не можете решиться на путешествие из-за курса? Фотографии помогут
+          вам забыть о политике и экономике.
+        </p>
+
+        <ul class="media__cards media__wrapper">
+          <li class="media__card media__card_size_xl media__separator">
+            <picture>
+              <source media="(min-width: 900px)"
+                srcset="./img/photo-sunset-desktop@1x.jpg 1x, ./img/photo-sunset-desktop@2x.jpg 2x">
+              <source media="(min-width: 450px)"
+                srcset="./img/photo-sunset-tablet@1x.jpg 1x, ./img/photo-sunset-tablet@2x.jpg 2x">
+              <img class="media__pic  media__pic_size_xl" src="./img/photo-sunset-mobile@1x.jpg"
+                srcset="./img/photo-sunset-mobile@2x.jpg 2x" alt="виды седоны">
+            </picture>
+            <div class="media__card-wrapper">
+              <div class="media__text-container">
+                <h4 class="media__title-foto media__text">неродные просторы</h4>
+                <p class="media__author media__text">Автор фото: Борис</p>
+              </div>
+              <div class="likes">
+                <svg class="media__likes active" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 20"
+                  enable-background="new 0 0 22 20" xml:space="preserve">
+                  <g id="Page-1">
+                    <g id="Core" transform="translate(-295.000000, -464.000000)">
+                      <g id="thumb-up" transform="translate(295.000000, 464.000000)">
+                        <path class="shape" id="shape"
+                          d="M12.383,3.646l-0.637,2.929L11.219,9H13.7h6.2v2c0,0.018,0,0.037,0.001,0.058L17,18H8V8.029 l0.014-0.015L12.383,3.646 M2,10v8V10 M13.2,0L6.6,6.6C6.2,6.9,6,7.4,6,8v10c0,1.1,0.9,2,2,2h9c0.8,0,1.5-0.5,1.8-1.2l3-7.1 C21.9,11.5,21.9,11.2,21.9,11V9H22c0-1.1-0.9-2-2-2h-6.3l1-4.6V2.1c0-0.4-0.2-0.8-0.4-1.1L13.2,0L13.2,0z M4,8H0v12h4V8L4,8z M22,9c0,0.033,0,0.044,0,0.044V9L22,9z" />
+                        <path class="shape__likes" id="shape2"
+                          d="M17,18H8V8l0,0l4.4-4.4l-0.6,2.9L11.2,9h2.5h6.2v2c0,0,0,0,0,0.1L17,18z" />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p class="media__likes-count media__text">1350</p>
+              </div>
+            </div>
+          </li>
+          <li class="media__card media__separator">
+            <picture>
+              <source media="(min-width: 900px)"
+                srcset="./img/photo-cactus-desktop@1x.jpg 1x, ./img/photo-cactus-desktop@2x.jpg 2x">
+              <source media="(min-width: 450px)"
+                srcset="../img/photo-cactus-tablet@1x.jpg 1x, ./img/photo-cactus-tablet@2x.jpg 2x">
+              <img class="media__pic" src="./img/photo-cactus-mobile@1x.jpg" srcset="./img/photo-cactus-mobile@2x.jpg 2x"
+                alt="виды седоны">
+            </picture>
+            <div class="media__card-wrapper">
+              <div class="media__text-container">
+                <h4 class="media__title-foto media__text">Местная растительность</h4>
+                <p class="media__author media__text">Автор фото: Сергей</p>
+              </div>
+              <div class="likes">
+                <svg class="media__likes" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 20" enable-background="new 0 0 22 20"
+                  xml:space="preserve">
+                  <g id="Page-1">
+                    <g id="Core" transform="translate(-295.000000, -464.000000)">
+                      <g id="thumb-up" transform="translate(295.000000, 464.000000)">
+                        <path class="shape" id="shape"
+                          d="M12.383,3.646l-0.637,2.929L11.219,9H13.7h6.2v2c0,0.018,0,0.037,0.001,0.058L17,18H8V8.029 l0.014-0.015L12.383,3.646 M2,10v8V10 M13.2,0L6.6,6.6C6.2,6.9,6,7.4,6,8v10c0,1.1,0.9,2,2,2h9c0.8,0,1.5-0.5,1.8-1.2l3-7.1 C21.9,11.5,21.9,11.2,21.9,11V9H22c0-1.1-0.9-2-2-2h-6.3l1-4.6V2.1c0-0.4-0.2-0.8-0.4-1.1L13.2,0L13.2,0z M4,8H0v12h4V8L4,8z M22,9c0,0.033,0,0.044,0,0.044V9L22,9z" />
+                        <path class="shape__likes" id="shape2"
+                          d="M17,18H8V8l0,0l4.4-4.4l-0.6,2.9L11.2,9h2.5h6.2v2c0,0,0,0,0,0.1L17,18z" />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p class="media__likes-count media__text">143</p>
+              </div>
+            </div>
+          </li>
+          <li class="media__card media__separator">
+            <picture>
+              <source media="(min-width: 900px)"
+                srcset="../img/photo-roads-desktop@1x.jpg 1x, ./img/photo-roads-desktop@2x.jpg 2x">
+              <source media="(min-width: 450px)"
+                srcset="./img/photo-roads-tablet@1x.jpg 1x, ./img/photo-roads-tablet@2x.jpg 2x">
+              <img class="media__pic" src="./img/photo-roads-mobile@1x.jpg" srcset="./img/photo-roads-mobile@2x.jpg 2x"
+                alt="виды седоны">
+            </picture>
+            <div class="media__card-wrapper">
+              <div class="media__text-container">
+                <h4 class="media__title-foto media__text">Дорога на север</h4>
+                <p class="media__author media__text">Автор фото: Петр</p>
+              </div>
+              <div class="likes">
+                <svg class="media__likes" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 20"
+                  enable-background="new 0 0 22 20" xml:space="preserve">
+                  <g id="Page-1">
+                    <g id="Core" transform="translate(-295.000000, -464.000000)">
+                      <g id="thumb-up" transform="translate(295.000000, 464.000000)">
+                        <path class="shape" id="shape"
+                          d="M12.383,3.646l-0.637,2.929L11.219,9H13.7h6.2v2c0,0.018,0,0.037,0.001,0.058L17,18H8V8.029 l0.014-0.015L12.383,3.646 M2,10v8V10 M13.2,0L6.6,6.6C6.2,6.9,6,7.4,6,8v10c0,1.1,0.9,2,2,2h9c0.8,0,1.5-0.5,1.8-1.2l3-7.1 C21.9,11.5,21.9,11.2,21.9,11V9H22c0-1.1-0.9-2-2-2h-6.3l1-4.6V2.1c0-0.4-0.2-0.8-0.4-1.1L13.2,0L13.2,0z M4,8H0v12h4V8L4,8z M22,9c0,0.033,0,0.044,0,0.044V9L22,9z" />
+                        <path class="shape__likes" id="shape2"
+                          d="M17,18H8V8l0,0l4.4-4.4l-0.6,2.9L11.2,9h2.5h6.2v2c0,0,0,0,0,0.1L17,18z" />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p class="media__likes-count media__text">96</p>
+              </div>
+            </div>
+          </li>
+          <li class="media__card media__separator">
+            <picture>
+              <source media="(min-width: 900px)"
+                srcset="./img/photo-bridge-desktop@1x.jpg 1x, ./img/photo-bridge-desktop@2x.jpg 2x">
+              <source media="(min-width: 450px)"
+                srcset="./img/photo-bridge-tablet@1x.jpg 1x, ./img/photo-bridge-tablet@2x.jpg 2x">
+              <img class="media__pic" src="./img/photo-bridge-mobile@1x.jpg"
+                srcset="./img/photo-bridge-mobile@2x.jpg 2x" alt="виды седоны">
+            </picture>
+            <div class="media__card-wrapper">
+              <div class="media__text-container">
+                <h4 class="media__title-foto media__text">Мост дьявола</h4>
+                <p class="media__author media__text">Автор фото: Антон</p>
+              </div>
+              <div class="likes">
+                <svg class="media__likes" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 20"
+                  enable-background="new 0 0 22 20" xml:space="preserve">
+                  <g id="Page-1">
+                    <g id="Core" transform="translate(-295.000000, -464.000000)">
+                      <g id="thumb-up" transform="translate(295.000000, 464.000000)">
+                        <path class="shape" id="shape"
+                          d="M12.383,3.646l-0.637,2.929L11.219,9H13.7h6.2v2c0,0.018,0,0.037,0.001,0.058L17,18H8V8.029 l0.014-0.015L12.383,3.646 M2,10v8V10 M13.2,0L6.6,6.6C6.2,6.9,6,7.4,6,8v10c0,1.1,0.9,2,2,2h9c0.8,0,1.5-0.5,1.8-1.2l3-7.1 C21.9,11.5,21.9,11.2,21.9,11V9H22c0-1.1-0.9-2-2-2h-6.3l1-4.6V2.1c0-0.4-0.2-0.8-0.4-1.1L13.2,0L13.2,0z M4,8H0v12h4V8L4,8z M22,9c0,0.033,0,0.044,0,0.044V9L22,9z" />
+                        <path class="shape__likes" id="shape2"
+                          d="M17,18H8V8l0,0l4.4-4.4l-0.6,2.9L11.2,9h2.5h6.2v2c0,0,0,0,0,0.1L17,18z" />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p class="media__likes-count media__text">254</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <h2 class="media__title title wrapper">Все еще сомневаетесь?</h2>
+        <p class="media__subtitle subtitle wrapper">Смотрите видеопрезентацию и скорее за билетами, пока они не
+          подорожали в очередной раз!
+        </p>
+        <iframe class="media__video" src="https://www.youtube.com/embed/_qHjLngt7OI" title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </section>
+
+    </main>
+
+    <footer class="footer container">
+      <div class="footer__container wrapper">
+        <a class="footer__item footer__hashtag" href="#">#visitsedona</a>
+        <ul class="footer__item social">
+          <li class="social__item social__item_link_twitter">
+            <a class="social__link" href="#">
+              <span class="visually-hidden">твиттер</span>
+            </a>
+          </li>
+          <li class="social__item social__item_link_facebook">
+            <a class="social__link" href="#">
+            <span class="visually-hidden">фейсбук</span>
+            </a>
+          </li>
+          <li class="social__item social__item_link_youtube">
+            <a class="social__link" href="#">
+              <span class="visually-hidden">ютуб</span>
+            </a>
+          </li>
+        </ul>
+        <div class="footer__item copyright">
+          <a href="#" class="copyright__link">
+            <p class="copyright__text">website by</p>
+            <svg class="copyright__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="black">
+              <path
+                d="M30.2 5h-.2l-19.7 2.1v36.2l19.7 11.7 19.7-11.7v-36.2l-19.5-2.1zm17 36.8l-17.2 10.2-17.2-10.2v-14.8l17.1 10.2v1.8l-11.7-7v1.8l11.8 7.1v1.9l-11.8-7v1.8l11.8 7 11.9-7.1v-7.6l5.3-3.2v15.1zm-.1-17l-4.7 2.8-2.2 1.3-10.3-6.1v1.8l8.8 5.3h-.1l-.2.1-1.3.7-7.3-4.3v1.8l5.8 3.4-1.4.9-4.3-2.6v1.8l2.9 1.7-2.9 1.7-17-10.1 17-10.2 17.2 10zm.1-1.8l-17.3-10.2-17.1 10.2v-13.6l17.2-1.8 17.2 1.8v13.6z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>

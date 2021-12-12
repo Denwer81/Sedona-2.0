@@ -1,0 +1,6 @@
+.advantages__card_size_l {
+  position: relative;
+  justify-content: center;
+  min-height: 210px;
+  max-width: 100%;
+}

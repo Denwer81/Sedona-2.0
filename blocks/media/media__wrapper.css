@@ -1,0 +1,15 @@
+.media__wrapper {
+  margin: 0 6.25%;
+}
+
+@media (min-width: 768px) {
+  .media__wrapper {
+    margin: 0 7.8125%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .media__wrapper {
+    margin: 0;
+  }
+}

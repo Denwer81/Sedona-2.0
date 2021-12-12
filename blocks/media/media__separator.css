@@ -1,0 +1,21 @@
+.media__separator::before,
+.media__cards:last-of-type::after{
+  content: "";
+  display: flex;
+  position: absolute;
+  left: -20%;
+  width: 140%;
+  height: 1px;
+  background-color: #E5E5E5;
+}
+
+.media__cards:last-of-type::after {
+  bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .media__separator::before,
+  .media__cards:last-of-type::after {
+    display: none;
+  }
+}

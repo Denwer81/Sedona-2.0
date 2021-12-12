@@ -1,0 +1,15 @@
+.more-advant__card {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .more-advant__card {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    align-items: center;
+    padding: 30px;
+  }
+}

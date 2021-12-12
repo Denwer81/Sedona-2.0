@@ -1,0 +1,12 @@
+.card__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+@media (min-width: 768px) {
+  .card__wrapper {
+    align-items: center;
+    text-align: center;
+  }
+}

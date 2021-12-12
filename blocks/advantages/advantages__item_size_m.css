@@ -1,0 +1,10 @@
+.advantages__item_size_m {
+  background-color: #eee;
+}
+
+@media (min-width: 768px) {
+  .advantages__item_size_m {
+    flex: 0 1 33.333%;
+    box-sizing: border-box;
+  }
+}

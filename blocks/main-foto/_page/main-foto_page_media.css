@@ -1,0 +1,9 @@
+.main-foto {
+  height: 300px;
+}
+
+@media (max-width: 767px) {
+  .main-foto {
+    height: 160px;
+  }
+}

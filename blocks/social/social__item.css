@@ -1,0 +1,23 @@
+.social__item {
+  background-color: #81b3d2;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social__item:hover,
+.social__item:focus {
+  background-color: #669ec1;
+  transition: all 0.3s ease;
+}
+
+.social__item:active {
+  background-color: #5596be;
+  box-shadow: inset 0px 0px 25px 13px rgba(85, 150, 190, 0.9);
+}
+
+.social__item:active::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #5596be;
+}

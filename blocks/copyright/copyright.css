@@ -1,0 +1,22 @@
+.copyright {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .copyright {
+    margin: 0;
+  }  
+}
+
+.copyright:hover .copyright__icon,
+.copyright:hover .copyright__text {
+  transition: all 0.3s ease;
+  fill: #81b3d2;
+  color: #5596be;
+}
+
+.copyright:active .copyright__icon,
+.copyright:active .copyright__text {
+  fill: #bcbabb;
+  color: #bcbabb;
+}

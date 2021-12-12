@@ -1,0 +1,21 @@
+.footer__hashtag {
+  display: block;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  text-decoration: none;
+  color: black;
+  margin: 38px 0;
+  transition: all 0.3s ease;
+}
+
+.footer__hashtag:hover,
+.footer__hashtag:focus {
+  background-color: white;
+  color: #81B3D2;
+}
+
+.footer__hashtag:active {
+  color: black;
+  opacity: 0.3;
+}

@@ -1,0 +1,11 @@
+.more-advant {
+  padding: 20px 15px;
+}
+
+@media (min-width: 768px) {
+  .more-advant {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 15px;
+  }
+}

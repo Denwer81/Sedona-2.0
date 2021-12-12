@@ -1,0 +1,13 @@
+.social {
+  display: grid;
+  grid-template: 46px / 46px 46px 46px;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 35px;
+}
+
+@media (min-width: 768px) {
+  .social {
+    margin: 0;
+  }  
+}

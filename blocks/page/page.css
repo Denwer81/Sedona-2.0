@@ -1,17 +1,19 @@
 @font-face {
-  font-family: "Pt Sans";
-  src: local("Pt Sans");
-  src: url("../../fonts/ptsans.woff2") format("woff2"), url("../../fonts/ptsans.woff") format("woff");
   font-style: normal;
   font-weight: 400;
+  font-family: "Pt Sans";
+  src: local("Pt Sans"),
+       url("../../fonts/ptsans.woff2") format("woff2"),
+       url("../../fonts/ptsans.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Pt Sans bold";
-  src: local("Pt Sans bold");
-  src: url("../../fonts/ptsansbold.woff2") format("woff2"), url("../../fonts/ptsansbold.woff") format("woff");
   font-style: normal;
   font-weight: 700;
+  font-family: "Pt Sans";
+  src: local("Pt Sans bold"),
+       url("../../fonts/ptsansbold.woff2") format("woff2"), 
+       url("../../fonts/ptsansbold.woff") format("woff");
 }
 
 .page {

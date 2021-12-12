@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+  .advantages__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

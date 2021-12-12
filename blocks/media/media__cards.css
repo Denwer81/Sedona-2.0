@@ -1,0 +1,13 @@
+.media__cards {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+@media (min-width: 768px) {
+  .media__cards {
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }  
+}
+
