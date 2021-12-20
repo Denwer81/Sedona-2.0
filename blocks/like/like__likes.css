@@ -1,0 +1,42 @@
+.like__likes {
+  width: 23px;
+  height: 21px;
+  display: block;
+  fill: black;
+}
+
+.like__likes .shape {
+  display: block;
+  fill: black;
+  opacity: .3;
+  transition: .13s ease-in;
+}
+
+
+.like__likes .like__shape {
+  opacity: 0;
+}
+
+.like__likes:hover .shape,
+.like__likes:focus .shape {
+  opacity: 1;
+}
+
+.like__likes:active .shape {
+  opacity: .3;
+}
+
+@media (min-width: 1200px) {
+  .like__likes .shape {
+    fill: white;
+    opacity: 1;
+  }
+
+  .like__likes:hover .shape {
+    opacity: .7;
+  }
+
+  .like__likes:active .shape {
+    opacity: .4;
+  }
+}

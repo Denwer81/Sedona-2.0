@@ -1,0 +1,21 @@
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 45px;
+  height: 40px;
+  font-size: 0;
+  box-shadow: none;
+  border: none;
+  background-color: transparent;
+  z-index: 15;
+  cursor: pointer;
+}
+
+.hamburger__active {
+  display: block;
+}

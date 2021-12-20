@@ -11,3 +11,9 @@
   }  
 }
 
+@media (min-width: 1200px) {
+  .media__cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }  
+}
+

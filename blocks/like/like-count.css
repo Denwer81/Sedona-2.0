@@ -1,0 +1,10 @@
+.like-count {
+  padding-left: 14px;
+  font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  .like-count {
+    color: white;
+  }
+}

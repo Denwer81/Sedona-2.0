@@ -1,0 +1,37 @@
+.like_active .like__shape {
+  opacity: 1;
+  fill: #a8cce2;
+}
+
+.like_active .shape {
+  opacity: 1;
+  fill: #5496BD;
+}
+
+.like_active:hover .shape {
+  opacity: .3;
+}
+
+.like_active:active .shape {
+  opacity: 1;
+}
+
+@media (min-width: 1200px) {
+  .like_active .shape {
+    opacity: 1;
+    fill: white;
+  }
+
+  .like_active:hover .shape {
+    opacity: .8;
+  }
+
+  .like_active:active .shape {
+    opacity: .7;
+  }
+
+  .like_active .like-shape {
+    opacity: 1;
+    fill: #3ea1da;
+  }
+}

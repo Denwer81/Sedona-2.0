@@ -1,8 +1,16 @@
 @import url(../vendor/normalize.css);
+
 @import url(../blocks/reset-style/reset-styles.css);
+
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/visually-hidden/visually-hidden.css);
+
 @import url(../blocks/container/container.css);
+
+@import url(../blocks/hamburger/hamburger.css);
+@import url(../blocks/hamburger/hamburger__item.css);
+
 @import url(../blocks/main-nav/main-nav__item.css);
 @import url(../blocks/main-nav/main-nav__item_order_first.css);
 @import url(../blocks/main-nav/main-nav__link.css);
@@ -10,9 +18,13 @@
 @import url(../blocks/main-nav/main-nav__logo.css);
 @import url(../blocks/main-nav/main-nav__link-logo.css);
 @import url(../blocks/main-nav/main-nav__link_active.css);
+@import url(../blocks/main-nav/main-nav__item_closed.css);
+
 @import url(../blocks/wrapper/wrapper.css);
+
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/content__main-foto.css);
+
 @import url(../blocks/main-foto/main-foto.css);
 @import url(../blocks/main-foto/_page/main-foto_page_media.css);
 @import url(../blocks/main-foto/main-foto__sedona.css);
@@ -26,23 +38,32 @@
 @import url(../blocks/media/media__subtitle.css);
 @import url(../blocks/media/media__cards.css);
 @import url(../blocks/media/media__card.css);
+@import url(../blocks/media/media__card-wrapper.css);
+@import url(../blocks/media/media__card_size_xl.css);
 @import url(../blocks/media/media__separator.css);
-
+@import url(../blocks/media/media__author.css);
+@import url(../blocks/media/media__pic.css);
+@import url(../blocks/media/media__title-foto.css);
+@import url(../blocks/media/media__text.css);
 @import url(../blocks/media/media__video.css);
 
+@import url(../blocks/like/like-count.css);
+@import url(../blocks/like/like.css);
+@import url(../blocks/like/like__likes.css);
+@import url(../blocks/like/like_active.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/footer__container.css);
 @import url(../blocks/footer/footer__hashtag.css);
+@import url(../blocks/footer/footer__item.css);
+
 @import url(../blocks/social/social.css);
 @import url(../blocks/social/social__item.css);
 @import url(../blocks/social/_link/social__item_link_youtube.css);
 @import url(../blocks/social/_link/social__item_link_facebook.css);
 @import url(../blocks/social/_link/social__item_link_twitter.css);
+
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/copyright/copyright__icon.css);
 @import url(../blocks/copyright/copyright__link.css);
 @import url(../blocks/copyright/copyright__text.css);
-@import url(../blocks/footer/footer__item.css);
-
-@import url(../style.css);

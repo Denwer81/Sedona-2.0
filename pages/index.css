@@ -1,8 +1,16 @@
 @import url(../vendor/normalize.css);
+
 @import url(../blocks/reset-style/reset-styles.css);
+
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/visually-hidden/visually-hidden.css);
+
 @import url(../blocks/container/container.css);
+
+@import url(../blocks/hamburger/hamburger.css);
+@import url(../blocks/hamburger/hamburger__item.css);
+
 @import url(../blocks/main-nav/main-nav__item.css);
 @import url(../blocks/main-nav/main-nav__item_order_first.css);
 @import url(../blocks/main-nav/main-nav__link.css);
@@ -10,16 +18,25 @@
 @import url(../blocks/main-nav/main-nav__logo.css);
 @import url(../blocks/main-nav/main-nav__link-logo.css);
 @import url(../blocks/main-nav/main-nav__link_active.css);
+@import url(../blocks/main-nav/main-nav__item_closed.css);
+
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/content/content.css);
+
 @import url(../blocks/content/content__main-foto.css);
+
 @import url(../blocks/main-foto/main-foto.css);
 @import url(../blocks/main-foto/main-foto__sedona.css);
 @import url(../blocks/main-foto/main-foto__text.css);
+
 @import url(../blocks/advantages/advantages__frame.css);
+
 @import url(../blocks/title/title.css);
+
 @import url(../blocks/subtitle/subtitle.css);
+
 @import url(../blocks/button/button.css);
+
 @import url(../blocks/advantages/advantages__title.css);
 @import url(../blocks/advantages/advantages__subtitle.css);
 @import url(../blocks/advantages/advantages__item_size_xl.css);
@@ -29,6 +46,7 @@
 @import url(../blocks/advantages/advantages__items.css);
 @import url(../blocks/advantages/advantages__card_size_m.css);
 @import url(../blocks/advantages/advantages__card_size_l.css);
+
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/card__foto.css);
 @import url(../blocks/card/card__icon.css);
@@ -37,23 +55,28 @@
 @import url(../blocks/card/card__wrapper.css);
 @import url(../blocks/card/card__text_margin_less.css);
 @import url(../blocks/card/card__title_margin_less.css);
+
 @import url(../blocks/more-advant/more-advant.css);
 @import url(../blocks/more-advant/more-advant__card.css);
+
 @import url(../blocks/search-addres/search-addres.css);
 @import url(../blocks/search-addres/search-addres__button.css);
 @import url(../blocks/search-addres/search-addres__map.css);
 @import url(../blocks/search-addres/search-addres__subtitle.css);
 @import url(../blocks/search-addres/search-addres__title.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/footer__container.css);
 @import url(../blocks/footer/footer__hashtag.css);
+@import url(../blocks/footer/footer__item.css);
+
 @import url(../blocks/social/social.css);
 @import url(../blocks/social/social__item.css);
 @import url(../blocks/social/_link/social__item_link_youtube.css);
 @import url(../blocks/social/_link/social__item_link_facebook.css);
 @import url(../blocks/social/_link/social__item_link_twitter.css);
+
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/copyright/copyright__icon.css);
 @import url(../blocks/copyright/copyright__link.css);
 @import url(../blocks/copyright/copyright__text.css);
-@import url(../blocks/footer/footer__item.css);

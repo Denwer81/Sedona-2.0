@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+  .media__card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    padding: 0 20px;
+    background-color: #F2F2F2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .media__card-wrapper {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: calc(100% - 40px);
+    background-color: rgba(0, 0, 0, .3);
+  }
+}

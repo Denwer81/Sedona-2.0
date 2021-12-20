@@ -1,0 +1,10 @@
+.like {
+  display: flex;
+  padding: 22px 0 40px 0;
+}
+
+@media (min-width: 768px) {
+  .like {
+    padding: 0;
+  }
+}

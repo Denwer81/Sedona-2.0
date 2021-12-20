@@ -1,0 +1,13 @@
+.media__pic {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  padding: 22px 0 10px 0;
+}
+
+@media (min-width: 768px) {
+  .media__pic {
+    height: 267px;
+    padding: 0;
+  }
+}
