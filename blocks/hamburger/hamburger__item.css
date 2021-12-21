@@ -30,8 +30,8 @@
 .hamburger__item::before,
 .hamburger__item::after {
   transition-property: top, transform;
-  transition-duration: 0.3s, 0.3s;
-  transition-delay: 0.3s, 0s;
+  transition-duration: 0.2s, 0.2s;
+  transition-delay: 0.2s, 0s;
 }
 
 .is-active .hamburger__item {
@@ -41,7 +41,7 @@
 .is-active .hamburger__item::before,
 .is-active .hamburger__item::after {
   background-color: white;
-  transition-delay: 0s, 0.3s;
+  transition-delay: 0s, 0.2s;
   top: 0;
 }
 
